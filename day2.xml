@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+	<node id="1" place="black">
+		<text speaker="You">It was a lot easier for me to get up today than last time. That must mean I'm getting used to school.</text>
+		<text>You got your morning coffee, as usual, and headed out to your classes.</text>
+		<text>...</text>
+	</node>
+	<node id="2" location="coffee_counter">
+		<text>Even though you weren't tired (you had a good rest, after all), you still had this feeling to go and visit the coffee shop again.</text>
+		<text>Surprisingly, it's not very crowded as it was in the morning, and there were a few people hanging around. Even the workers didn't have that many customers to accomodate, so they were talking with one another as well.</text>
+		<text>You settle for getting a croissant to snack on while you do some studying.</text>
+	</node>
+	<node id="3">
+		<question>Where should I sit?</question>
+		<answer link ="4">At the couches</answer>
+		<answer link ="10">At the lounge</answer>
+		<answer link ="16">Hang around the counter</answer>
+	</node>
+	<node id="4" location = "coffee_couch">
+		<text>You head over to the couches. They're surprisingly comfy, so of course you'd go for that!</text>
+		<text character="character2">On the other couch sat a short girl, wearing dark clothing. She seemed like someone you'd rather not confront.</text>
+		<text>She was drawing inside a sketchbook, a concentrated frown on her features.</text>
+		<text>Despite her size, she could probably injure someone very easily if provoked.</text>
+		<text speaker = "Girl" emotion="angry">What are you looking at?</text>
+		<text speaker = "You"> !!!</text>
+		<text speaker = "You">(Oh no! I provoked her!!)</text>
+		<text speaker = "You">I-I was just...</text>
+	</node>
+	<node id="5">
+		<question>I-I was just...</question>
+		<answer link ="6">Looking at that sketchbook</answer>
+		<answer link ="7">Looking at your face</answer>
+		<answer link ="8">Surprised at how short you are</answer>
+	</node>
+	<node id="6" link="9">
+		<text speaker = "You">Looking at that sketchbook of yours!</text>
+		<text speaker = "Girl" emotion="normal">My sketchbook...?</text>
+		<text speaker = "You">Yeah...you're probably really good at drawing, right?</text>
+		<text speaker = "Girl" emotion = "surprised">...</text>
+		<text speaker = "Girl" emotion = "embarassed">N-not really...</text>
+		<text speaker = "You">If you draw so much, you really must be great at it.</text>
+		<text>She kept blushing, but nodded, continuing with her drawing.</text>
+		<text>At least she's not as scary as you thought she was.</text>
+		<text speaker = "You">So...you come around here often? You seem pretty comfortable here.</text>
+		<text speaker = "Girl" emotion = "normal">Yeah, I do. It's a nice place to work sometimes, when no one's screaming with their friends or anything like that.</text>
+		<text speaker = "You">Oh, really? Well this isn't much of a library, so I doubt things will change.</text>
+		<text speaker = "Girl" emotion = "happy">I wish it would. But today is a lot calmer, so I just...felt like drawing here.</text>
+		<text speaker = "You">(Woah, did she just...smile? That's surprising, she doesn't look like the type of girl who would do that...)</text>
+		<text>Accidentally, you seem to mutter out that sound of surprise.</text>
+		<text speaker = "Girl" emotion = "angry">...W-what? Why are you looking at me like that?</text>
+		<text speaker = "You">Sorry, it's just that I was surprised and all. You really looked like you were out to kill me at first, so seeing you smile is a shock</text>
+		<text speaker = "Girl" emotion = "embarassed">Hey, I smile! I'm not a robot or just an overall angry person all the time!</text>
+		<text speaker = "You">I know, I know!</text>
+		<text>Surprisingly, you got along with her just fine. She no longer scared you anymore and she no longer looked like she wanted to kill you.</text>
+		<text character="none">You spend the time studying and snacking on your food, and occasionally you try to peek over to see what she was drawing.</text>
+		<text>Though she always seemed to hide it from you. Maybe she could show it to you if you get to know her more?</text>
+	</node>
+	<node id="7" link="9">
+		<text>...looking at your face!</text>
+		<text speaker ="Girl" emotion = "angry">...What about it?</text>
+		<text>Her tone was dangerous.</text>
+		<text speaker ="You">(Uh oh...)</text>
+		<text speaker ="You">U-uh...it's pretty?</text>
+		<text speaker ="Girl" emotion="surprised">....</text>
+		<text speaker ="You">....</text>
+		<text speaker ="Girl" emotion="embarassed">If you're here just to try to flirt with me, it's not working. Go hook up with someone else, because I'm not interested.</text>
+        <text>Ouch.</text>
+        <text speaker = "You">S-sorry. I wasn't looking to impress you or anything. I just wanted to find a place to sit. It's just that...</text>
+		<text speaker = "Girl" emotion="normal">I'm intimidating? Yeah, I kinda get that a lot...</text>
+		<text>The girl sighed softly, before getting back to work.</text>
+		<text speaker = "Girl" emotion = "embarassed">...You know, you can sit there if you want. I won't be bothered by it.</text>
+		<text speaker = "You">O-oh, okay...</text>
+		<text>You do as told and sit across from her, nervously taking bites out of your croissant while she draws. You didn't want to weird her out any further with weird comments.</text>
+	</node>
+	<node id="8" link="9">
+		<text>Surprised at how short you are!</text>
+		<text speaker="Girl">. . .</text>
+		<text speaker="Girl">...What did you just say?</text>
+		<text>That look...you realized that's the look you imagined an angry serial killer would have.</text>
+		<text speaker="You">O-oh, no, I'm sorry, I didn't mean to--</text>
+		<text speaker="Girl">Just, get out of my face. Right now.</text>
+		<text>And you followed orders immediately.</text>
+		<text>Maybe I shouldn't have said that...</text>
+	</node>
+	<node id="9" location ="coffee_entrance" link = "21">
+		<text character="none">Eventually, you finish your croissant and head out. That girl you met...she was a little scary, but maybe you'll see her again and things will be better?</text>
+	</node>
+    <node id="10" location ="coffee_lounge">
+        <text>You decide to hang out in the lounge. Hopefully you'll meet a new friend there?</text>
+        <text>You take a seat in one of the chairs, beginning to snack on your croissant...</text>
+        <text character ="character3">A few minutes later a boy, one that roughly looked your age -- then again, everyone looks the same age around here -- came and took the seat in front of you.</text>
+        <text speaker ="Boy">Hi there. Can I sit here?</text>
+        <text speaker ="You">(This guy is pretty friendly.)</text>
+        <text speaker ="You">Oh, sure!</text>
+        <text speaker = "Boy" emotion ="happy">Thanks!</text>
+        <text>He sits down at the spot next to you, placing his own personal cup onto the counter, setting his things onto the table top.</text>
+        <text>Laptop, notebook, cellphone, everything!</text>
+        <text emotion="normal">He immediately starts getting to work on...something. It looked like a bunch of photos in his computer. He must be into photography.</text>
+    </node>
+    <node id="11">
+        <question>(Should I do something?)</question>
+        <answer link="12">Ask about his stuff</answer>
+        <answer link="14">Say nothing</answer>
+        <answer link="15">Ask him about the pictures</answer>
+    </node>
+    <node id="12">
+        <text speaker="You">Nice stuff. This looks like this is routine for you.</text>
+        <text speaker="Boy" emotion="happy">Yeah, I come here every day after classes. The atmosphere's really great, right?</text>
+        <text speaker="You">Yeah, it is. This is actually my second time here, I'm just a freshman.</text>
+        <text speaker="Boy" emotion="surprised">Really? You look much older than just a freshman.</text>
+        <text speaker="You">R...really??</text>
+        <text speaker="character" emotion="happy">Yeah! Here in college it's difficult for me to figure out what year or age certain kids are, so I don't mention it or anything.</text>
+        <text speaker="You">I see...</text>
+        <text speaker="Boy" emotion="normal">So I hope college is treating you well? I know it's stressful for some kids.</text>
+        <text speaker="You">Oh, I'm doing fine with it. The first day was hard to get through but I'm getting used to it.</text>
+        <text speaker="character">That's good! I was definitely the same as you at your age!</text>
+        <text speaker="You">What year are you?</text>
+        <text speaker="Boy">I'm a third year right now. So I'm pretty used to the school life.</text>
+    </node>
+    <node id="13" location="black" link="21">
+        <text>The two of you kept talking for a while, but eventually the boy had some work to do.</text>
+        <text speaker="Boy">It was nice talking to you!</text>
+        <text>He was definitely outgoing. It would be nice to see him again. Maybe he'll be back at the same spot in the coffee shop again.</text>
+        <text>...</text>
+    </node>
+    <node id="14" link="21">
+        <text>You decide not to say anything.</text>
+        <text>Of course, this doesn't elicit any sort of response from the other young man. He just continues typing things down on his computer and occasionally edit some photos</text>
+        <text>It's probably really creepy how you're just eyeing him while trying to focus on your croissant.</text>
+        <text character="none">So. Nothing happens between you too. And you do eventually have to go because you were finished with your snack.</text>
+        <text speaker="You">(I probably would've gotten along fine with him if I spoke up!)</text>
+    </node>
+    <node id="15" link="21">
+        <text speaker="You">Nice pictures.</text>
+        <text speaker="You">(Wait!! Why did I say that? He's probably going to be weirded out because I was looking at his computer screen...)</text>
+        <text emotion="surprised">The young man turns his head, a little taken aback.</text>
+        <text speaker="Boy" emotion="happy">You saw those? Wow, you've got a really good eye.</text>
+        <text speaker="Boy" emotion="normal">But yeah, thanks! I took those pictures myself.</text>
+        <text speaker="You">O-oh, so I bet you're a--</text>
+        <text speaker="Boy">Photography major. You were gonna say that, right?</text>
+        <text speaker="You">Yeah!</text>
+        <text>The two of you talked about photography for a while, until you've already finished you're croissant.</text>
+        <text>That guy is really really into photography...</text>
+        <text>No doubt that you might talk about it again on the offchance you see him again.</text>
+    </node>
+    <node id="16">
+        <text>You decide to hang around the coffee counter. The workers didn't seem to be busy, so chatting it up with them wouldn't hurt, right?</text>
+		<text>One of the workers was the same girl from the day before.</text>
+		<text character = "character1" speaker="Cashier" emotion="normal">Oh! It's you from yesterday!</text>
+		<text speaker = "You">Oh...me? You remember me?</text>
+		<text speaker = "Cashier" emotion = "happy">Of course. It's hard for me to forget faces, I do it all the time at work.</text>
+		<text emotion = "normal">While the two of you spoke, the other worker left the two of you alone to tend to another customer that just came along.</text>
+		<text speaker = "Cashier">So? How do you like this place?</text>
+		<text speaker = "You">Well the school is pretty nice, but I do get tired of that same old "academic" feeling I get just walking around. This cafe really is a good place to get away from it all.</text>
+		<text speaker = "Cashier">That's good to hear! And how are you liking your croissant?"</text>
+		<text>She gestured to the plate that was still in your hands.</text>
+		<text speaker = "You">O-Oh, right.</text>
+		<text speaker = "Cashier">So, besides that, did you need anything from me at all? You hanging out there is making me curious.</text>
+    </node>
+	<node id="17">
+		<question>Oh, well...</question>
+		<answer link = "18">What's your name?</answer>
+		<answer link = "19">What do you do outside of work?</answer>
+		<answer link = "20">How do you like your job?</answer>
+	</node>
+	<node id = "18" link = "21">
+		<text speaker = "You">What's your name?</text>
+		<text speaker = "Cashier" emotion = "surprised">My name??</text>
+		<text>She blushed a bit.</text>
+		<text speaker = "Cashier">It's Casey. Actually, it's right on my nametag here...</text>
+		<text>She pointed to the nametag on her chest.</text>
+		<text speaker = "You">Of course! I can't believe I missed that...</text>
+		<text speaker = "Cashier" emotion = "normal">Is that all? You should at least take a seat and eat your croissant.</text>
+		<text>You didn't really have much else to say so you nodded. However, you stayed, making small talk and complimenting on the great-tasting croissant.</text>
+		<text character = "none">Once you were done, a mass of customers had entered, and she seemed busy. However, she did flash you a smile and a wave as you left the cafe.</text>
+		<text speaker = "You">(Casey, huh...I'll try to remember that name, I'll be coming frequently anyway.)</text>
+	</node>
+	<node id = "19" link = "21">
+		<text speaker = "You">What do you do ouside of work?</text>
+		<text emotion = "surprised">The cashier looked a bit surprised; it probably wasn't often that she was asked a question like that.</text>
+		<text speaker = "Cashier">Outside of work? Well...</text>
+		<text speaker = "Cashier" emotion = "normal">I'm a second year, and I'm majoring in Mathematics...</text>
+		<text speaker = "You">(Woah, mathematics?! She's pretty smart, I wonder what she's doing working hours here when she could get a better pay being a tutor???)</text>
+		<text speaker = "Cashier">...My hobbies are cycling and hiking, my favorite color is green, my birthday is...</text>
+		<text speaker = "You">(I think she's going a little to far with "stuff outside of work"...)</text>
+		<text speaker = "You">Okay, I think that's enough of that. You really do a lot of things. How come you're not tutoring like any other Math major would?</text>
+		<text speaker = "Cashier" emotion = "surprised">Oh! Well...I never really liked just sitting around doing the same thing for work as I do for classes.</text>
+		<text speaker = "Cashier" emotion = "normal">This is much more fun, I get to be more social and it's really helping me out in terms of being with people. And making coffee has become a new hobby of mine!</text>
+		<text speaker = "You">Well, that's good at least.</text>
+		<text>The two of you spoke with one another for a while as you ate, and by the time you finished a mass of customers came in. Before she could go over to them, however...</text>
+		<text speaker = "You">H-Hey, I never got your name!</text>
+		<text speaker = "Cashier">It's Casey! It's on my nametag!</text>
+		<text speaker = "You">(Wow, how stupid can I get, of course she'll have a nametag! Well, hopefully I'll see her again, right? I'll definitely be coming here often.)</text>
+	</node>
+	<node id = "20" link = "21">
+		<text speaker = "You">How do you like your job?</text>
+		<text speaker = "Cashier">It's a pretty good job! I like it very much!</text>
+		<text speaker = "Cashier">Whenever I'm working I get to meet people, new and old, I start to remember them if they come at a usual time.</text>
+		<text speaker = "You">I see...</text>
+		<text speaker = "Cashier" emotion = "happy">Plus, the smell of coffee in the morning always wakes me up and gets me ready for the rest of the day and for my studies.</text>
+		<text speaker = "You">That's definitely something to agree with.</text>
+		<text>Just then, as the two of you were talking, a mass of people who just came from their classes appeared at the counter.</text>
+		<text>The cashier's coworker called her over to start taking orders. She nodded, turning her head to give you another smile.</text>
+		<text speaker = "Cashier">Oh, guess I have to start working now. It was nice speaking with you!</text>
+		<text speaker = "You">Wait, I haven't gotten your na--</text>
+		<text>You then look down at the very noticeable nametag on her shirt: "Casey"</text>
+		<text speaker = "You">(Of course she'd have a nametag for when she worked...)</text>
+		<text speaker = "You">(Well, guess I'll finish this croissant and head out. I'll definitely come by here again sometime, though...)</text>
+	</node>
+	<node id = "21" done = "true"><text>To be continued!! Start over and try making different choices!</text></node>
+</nodes>

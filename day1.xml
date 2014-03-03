@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+	<node id="1" location="outside">
+		<text speaker="You">Well, today's the first day of class!</text>
+		<text speaker="You">Of all times, my first class has to start at 8 in the morning. I'm too tired to concentrate!</text>
+		<text speaker="You">Maybe heading to the coffeeshop and getting a drink will wake me up...</text>		
+	</node>
+	<node id="2" location="coffee_entrance">
+		<text speaker="You">This seems like a nice coffee shop! Woah, it's pretty crowded! Thank goodness there's some seats left for me to take a break!</text>
+		<text>Let's go order a drink...</text>
+	</node>
+	<node id="3" location="coffee_counter">
+		<text character="character1">You head up to the counter where a girl is working behind it. She's got a pretty bright smile when it's so early in the morning.</text>
+		<text>The girl turns to you, noticing your presence.</text>
+	</node>
+	<node id="4">
+		<question>(What should I say?)</question>
+		<answer link ="5">Hello there!</answer>
+		<answer link ="6">You look great today!</answer>
+		<answer link ="7">(Say nothing)</answer>
+	</node>
+	<node id="5" link="8">
+		<text speaker = "You">Hello there!</text>
+		<text>The girl at the counter smiles at you in response.</text>
+		<text>Despite how busy the coffeeshop was, she still had the energy to smile like that.</text>
+		<text speaker = "Cashier" emotion = "happy"> Hi! What would you like to order?</text>
+		<text speaker = "You">I would like to order a latte, please.</text>
+		<text>The girl nods happily and get your drink in a matter of minutes.</text>
+	</node>
+	<node id="6" link="8">
+		<text speaker = "You">You look great today!</text>
+		<text emotion = "surprised">(Wait! Why did I say that? I don't even know this girl and I complimented her?!)</text>
+		<text>(This is so embarassing...)</text>
+		<text>You quickly look down and try to look particularly interested on the tiles of the floor, waiting for her response...</text>
+		<text speaker = "Cashier">O-Oh, thank you...?? Would you like to order anything?</text>
+		<text emotion = "normal">She carefully avoided that question without breaking a smile, but she was blushing a little.</text>
+		<text speaker = "You">U-uh, yeah, I'd like a latte...</text>
+		<text>The girl at the counter nods, getting your order quickly, that smile, though faltered, still on her face.</text>
+	</node>
+	<node id="7" link="8">
+		<text>For some odd reason you don't even say anything to the girl at the counter, just...staring at her, waiting for a response.</text>
+		<text speaker = "Cashier" emotion="surprised">Uhm...</text>
+		<text>She easily sensed that awkwardness in the silence</text>
+		<text speaker = "Cashier">Uh, what would you like to order?</text>
+		<text>Well of course you have to TELL her what you want!</text>
+		<text speaker ="You">Oh, uh, yeah, just a latte.</text>
+		<text emotion ="angry">Because the girl was working, and well, it would directly disobey the unspoken worker code of conduct, she had to brush off your terrible manners and get your drink.</text>
+	</node>
+	<node id="8" location="coffee_lounge">
+		<text character ="none">Eventually you get your drink, and you take your first sip...</text>
+		<text>. . .</text>
+		<text speaker="You">...It's good!</text>
+		<text>That really took that sleepy load off of your shoulders...oh!</text>
+		<text>You realize that you'll be late for your first class if you don't hurry out soon!</text>
+	</node>
+	<node id="9" location ="black">
+		<text>...</text>
+	</node>
+</nodes>
